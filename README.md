@@ -107,5 +107,4 @@ Here are some example plots generated with catplot:
 
 ## License
 
-MIT
-
+[MIT](https://github.com/Iro96/catplotlib/blob/main/LICENSE)
