@@ -2,6 +2,8 @@
 
 Catplotlib is a lightweight, header-first C++ plotting library that renders to SVG. It provides a tiny, familiar API reminiscent of matplotlib for quick plots directly from C++ without external runtime dependencies.
 
+---
+
 ## Features (v0.1)
 
 - Line plots and scatter plots
@@ -10,6 +12,21 @@ Catplotlib is a lightweight, header-first C++ plotting library that renders to S
 - Pure C++17, outputs an SVG file
 - Grid and legend toggles (basic)
 - Multiple subplots (`subplot(nrows, ncols, index)`)
+
+## Planned Features
+
+- PNG export
+- Dear ImGui/SDL interactive backend
+- Improved text rendering with font metrics
+- Enhanced multi-axes layouts
+- Advanced legend and grid customization
+- More plot types (bar, histogram, etc.)
+- Better error handling and validation
+- Documentation improvements
+- Performance optimizations
+- Additional examples and tutorials
+
+---
 
 ## Build
 
@@ -63,6 +80,8 @@ int main() {
 }
 ```
 
+---
+
 ## API overview
 
 - `Figure(int widthPx = 800, int heightPx = 600)`
@@ -76,19 +95,6 @@ int main() {
 - `void Axes::grid(bool)`, `void Axes::legend(bool)`
 - `void Figure::save(const std::string& path)` -> SVG
 - `void Figure::save_png(const std::string& path)` -> Not yet implemented (stub)
-
-## Planned Features
-
-- PNG export
-- Dear ImGui/SDL interactive backend
-- Improved text rendering with font metrics
-- Enhanced multi-axes layouts
-- Advanced legend and grid customization
-- More plot types (bar, histogram, etc.)
-- Better error handling and validation
-- Documentation improvements
-- Performance optimizations
-- Additional examples and tutorials
 
 ## Example Gallery
 
@@ -104,6 +110,8 @@ Here are some example plots generated with catplot:
 > - SVG text rendering uses browser defaults (sans-serif). There is no font metrics; label placement is approximate but readable.
 > - For multi-axes layouts, legends, grid, and styles, contributions are welcome.
 > - PNG export and Dear ImGui/SDL interactive backend are on the roadmap. The `save_png` API exists as a stub and currently throws.
+
+---
 
 ## License
 
