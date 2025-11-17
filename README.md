@@ -1,4 +1,4 @@
-# Catplotlib (C++ mini-plotting, matplotlib-like)
+# Catplotlib (C++ mini-plotting)
 [![CMake on multiple platforms](https://github.com/Iro96/catplotlib/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Iro96/catplotlib/actions/workflows/cmake-multi-platform.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![PR: Welcome](https://img.shields.io/badge/PR-Welcome-orange.svg)
@@ -123,6 +123,7 @@ Here are some example plots generated with catplot:
 ## License
 
 [MIT](https://github.com/Iro96/catplotlib/blob/main/LICENSE)
+
 
 
 
