@@ -1,4 +1,8 @@
 # Catplotlib (C++ mini-plotting, matplotlib-like)
+[![CMake on multiple platforms](https://github.com/Iro96/catplotlib/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Iro96/catplotlib/actions/workflows/cmake-multi-platform.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![PR: Welcome](https://img.shields.io/badge/PR-Welcome-orange.svg)
+![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-red.svg)
 
 Catplotlib is a lightweight, header-first C++ plotting library that renders to SVG. It provides a tiny, familiar API reminiscent of matplotlib for quick plots directly from C++ without external runtime dependencies.
 
@@ -117,4 +121,5 @@ Here are some example plots generated with catplot:
 ## License
 
 [MIT](https://github.com/Iro96/catplotlib/blob/main/LICENSE)
+
 
