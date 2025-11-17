@@ -13,8 +13,10 @@ add_library(catplot
     src/svg_canvas.cpp
     src/svg_backend.cpp
 )
+
 target_include_directories(catplot PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/numbits/include>
     $<INSTALL_INTERFACE:include>
 )
 
@@ -22,5 +24,3 @@ if(CATPLOT_BUILD_EXAMPLES)
     add_executable(catplot_example examples/simple.cpp)
     target_link_libraries(catplot_example PRIVATE catplot)
 endif()
-
-
