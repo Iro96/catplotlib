@@ -100,13 +100,14 @@ int main() {
 
 Here are some example plots generated with catplot:
 
-![Example 1](examples/simple_vector_approach.svg)
-![Example 3](examples/simple_numbits_approach.svg)
-![Example 4](examples/simple_combined_comparison.svg)
-![Example 5](examples/simple_numbits_subplots.svg)
+![Example 1](assets/simple_vector_approach.svg)
+![Example 3](assets/simple_numbits_approach.svg)
+![Example 4](assets/simple_combined_comparison.svg)
+![Example 5](assets/simple_numbits_subplots.svg)
 
 > [!NOTE]
 >
+> - `NumBits` I use in this is my own lightweight number computation library like mini numpy but in cpp.
 > - SVG text rendering uses browser defaults (sans-serif). There is no font metrics; label placement is approximate but readable.
 > - For multi-axes layouts, legends, grid, and styles, contributions are welcome.
 > - PNG export and Dear ImGui/SDL interactive backend are on the roadmap. The `save_png` API exists as a stub and currently throws.
@@ -116,3 +117,4 @@ Here are some example plots generated with catplot:
 ## License
 
 [MIT](https://github.com/Iro96/catplotlib/blob/main/LICENSE)
+
