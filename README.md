@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![PR: Welcome](https://img.shields.io/badge/PR-Welcome-orange.svg)
 ![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-red.svg)
+[![Supports: Numbits](https://img.shields.io/badge/Supports-Numbits-purple.svg)](https://github.com/Iro96/Numbits)
 ![Author: Iro96 - ndhquan](https://img.shields.io/badge/Author-Iro96-yellow.svg)
 
 
@@ -123,6 +124,7 @@ Here are some example plots generated with catplot:
 ## License
 
 [MIT](https://github.com/Iro96/catplotlib/blob/main/LICENSE)
+
 
 
 
